@@ -1,0 +1,5 @@
+dbconfig.yml
+env.yaml
+vendor
+.idea
+go.sum
