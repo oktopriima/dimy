@@ -69,6 +69,45 @@ docker run -d dimy
 # change HOST on postman environment from localhost to docker IP
 ```
 
+## AVAILABLE ENDPOINT
+Create Orders
+```bash
+curl --location 'http://localhost:8080/api/orders' \
+--header 'Content-Type: application/json' \
+--data '{
+    "customer_id" : 2,
+    "address_id" : 2,
+    "products" : [
+        {
+            "id" : 1,
+            "quantity": 10
+        },
+        {
+            "id" : 2,
+            "quantity": 10
+        }
+    ]
+}'
+```
+
+Pay Orders
+```bash
+curl --location 'http://localhost:8080/api/orders/payment' \
+--header 'Content-Type: application/json' \
+--data '{
+    "order_id" : 3,
+    "payments" : [
+        {
+            "id" : 1,
+            "value" : 100000
+        },
+        {
+            "id" : 2,
+            "value" : 50000
+        }
+    ]
+}'
+```
 ## Authors
 
 - [@oktopriima](https://www.github.com/oktopriima)
