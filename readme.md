@@ -109,6 +109,11 @@ curl --location 'http://localhost:8080/api/orders/payment' \
     ]
 }'
 ```
+
+Detail Customer
+```bash
+curl --location 'http://localhost:8080/api/customers/1'
+```
 ## Authors
 
 - [@oktopriima](https://www.github.com/oktopriima)
