@@ -39,7 +39,8 @@ Migrate database
 
   sql-migrate up --env=dev
   
-  # or you can import the database gank.sql directly into your local database
+  # or you can import the database dimy.sql directly into your local database
+  
 ```
 
 Install dependencies
