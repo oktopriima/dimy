@@ -1,7 +1,6 @@
 
-# GOLANG SIMPLE ORDERS
+# GOLANG SIMPLE CRUD
 
-Take home exercise
 - Language : Golang 1.20
 - Framework : Echo
 - ORM : gorm
